@@ -1,9 +1,14 @@
-export default function Admissions() {
+import { Button } from '@/components/ui/button';
+import Hero from '@/components/Admissions/Hero';
+import AdmissionForm from '@/components/Admissions/AdmissionForm';
+import Explore from '@/components/Admissions/Explore';
+
+export default function AdmissionsPage() {
   return (
     <main>
-      <section>
-        <h1>Admissions</h1>
-      </section>
+      <Hero />
+      <AdmissionForm />
+      <Explore />
     </main>
   );
 }

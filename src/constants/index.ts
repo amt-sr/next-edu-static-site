@@ -5,6 +5,5 @@ export const NAV: Nav = {
   About: 'About',
   Academics: 'Academics',
   Admissions: 'Admissions',
-  Gallery: 'Gallery',
   Contact: 'Contact'
 };

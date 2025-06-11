@@ -39,7 +39,9 @@ export default function Hero() {
                 Welcome to Greenfield International School, where excellence in education meets
                 holistic development.
               </p>
-              <Button className='bg-teal-600 text-white cursor-pointer'>Learn More</Button>
+              <a href='/about'>
+                <Button className='bg-teal-600 text-white cursor-pointer'>Learn More</Button>
+              </a>
             </div>
           )}
         </div>

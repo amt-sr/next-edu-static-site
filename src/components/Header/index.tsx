@@ -45,9 +45,6 @@ export default function Header({ current }: HeaderProps) {
           <a href='/admissions' className={current === NAV.Admissions ? ul : hvUl}>
             Admissions
           </a>
-          <a href='gallery' className={current === NAV.Gallery ? ul : hvUl}>
-            Gallery
-          </a>
           <a href='/contact' className={current === NAV.Contact ? ul : hvUl}>
             Contact
           </a>
@@ -97,12 +94,6 @@ export default function Header({ current }: HeaderProps) {
             className={current === NAV.Admissions ? ul : hvUl}
             onClick={() => setMenuOpen(false)}>
             Admissions
-          </a>
-          <a
-            href='gallery'
-            className={current === NAV.Gallery ? ul : hvUl}
-            onClick={() => setMenuOpen(false)}>
-            Gallery
           </a>
           <a
             href='/contact'

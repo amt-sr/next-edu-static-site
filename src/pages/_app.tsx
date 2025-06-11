@@ -10,7 +10,6 @@ const routeToNavKey: Record<string, NavKey> = {
   '/about': 'About',
   '/academics': 'Academics',
   '/admissions': 'Admissions',
-  '/gallery': 'Gallery',
   '/contact': 'Contact'
 };
 
